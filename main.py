@@ -4,8 +4,8 @@ from quote import get_random_quote
 import requests
 import re
 
-# updater = Updater(TOKEN, use_context=True) -> where TOKEN is generated from BotFather
-updater = Updater('1231131874:AAF4faagqcuJd7PEUJ2OyxrSwBwUu0xWZd8', use_context=True)
+### replace TOKEN with token generated from BotFather
+updater = Updater(TOKEN, use_context=True)
 
 # get random dog image url
 def get_url():
