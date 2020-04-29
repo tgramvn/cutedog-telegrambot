@@ -3,8 +3,8 @@ from telegram import Update
 from quote import get_random_quote
 import requests
 import re
-import threading
 
+# updater = Updater(TOKEN, use_context=True) -> where TOKEN is generated from BotFather
 updater = Updater('1231131874:AAF4faagqcuJd7PEUJ2OyxrSwBwUu0xWZd8', use_context=True)
 
 # get random dog image url
@@ -28,7 +28,7 @@ def start(update, context):
     Welcome to Random Cute Dog! 
     \n /aww to get a cute image of a doggie to brighten up your day! \U0001f436 
     \n /woof to get a random quote \U0001f4ac
-    \n /bye to say byebye 
+    \n /bye to say byebye \U0001f622
     """
     update.message.reply_text(s)
 
