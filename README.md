@@ -1,6 +1,5 @@
 # cutedog-telegrambot
 
-## Link
 https://github.com/ZiRong27/cutedog-telegrambot
 
 A telegram bot that sends random pictures of cute silly dogs and dog quotes!
