@@ -5,3 +5,6 @@ quotes.txt - quotes from https://www.shutterfly.com/ideas/dog-quotes/
 
 ## Setup
 - Replace TOKEN with token generated from BotFather in main.py line 8
+
+## Link
+https://github.com/ZiRong27/cutedog-telegrambot
