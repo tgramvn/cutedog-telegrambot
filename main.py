@@ -5,7 +5,7 @@ import requests
 import re
 
 ### replace TOKEN with token generated from BotFather
-updater = Updater(TOKEN, use_context=True)
+updater = Updater(6238511063:AAGJjNcHHcGKCUS2hx2VVsFGOWh2N5FYliA, use_context=True)
 
 # get random dog image url
 def get_url():
